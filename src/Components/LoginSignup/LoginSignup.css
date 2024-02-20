@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding-bottom: 30px;
+  }
+  
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.text{
+    color: #b36fbc;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background-color: #b36fbc;
+    border-radius: 9px;
+
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #f5f5f5; /* Lighter background color */
+    border-radius: 10px; /* Increased border-radius */
+    padding: 0 20px; /* Added padding */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+
+  .input:hover {
+    background: #e0e0e0; /* Lighter background color on hover */
+  }
+  
+
+.input img{
+    margin: 0px 30px;
+    width: 10px;
+
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border:  none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+.text {
+    color: #b36fbc;
+    font-size: 36px; /* Reduced font size for better aesthetics */
+    font-weight: 700;
+  }
+ 
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: #b36fbc;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background-color: #b36fbc;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+  
+    /* Hover styles */
+    &:hover {
+      background-color: #925ea8; /* Change the background color on hover */
+    }
+  }
+  
+  /* Optional: You can add a specific class for the hover effect if needed */
+  .submit:hover {
+    background-color: #925ea8;
+  }
+  
