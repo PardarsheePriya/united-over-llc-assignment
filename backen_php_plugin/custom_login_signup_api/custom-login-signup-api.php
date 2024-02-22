@@ -1,5 +1,7 @@
 <?php
+//Plugin Head
 /*
+
 Plugin Name: Custom Login and Signup API
 Description: Custom REST API endpoints for user login and signup
 Version: 1.0
